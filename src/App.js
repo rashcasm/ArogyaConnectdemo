@@ -9,6 +9,8 @@ import DoctorManagement from './DoctorManagement';
 import Navbar from './Navbar.js';
 import Homepage from './Homepage.js';
 import About from './About.js';
+import HospitalManage from './hospitalManage.js';
+
 function App() {
   const [user, setUser] = useState(null);
   //Added some inline styline so due to removal of Login and Register Links
@@ -27,6 +29,7 @@ function App() {
           <Route path="/doctormanagement" element={<DoctorManagement />} />
           <Route path="/homepage" element={<Homepage />} />
           <Route path="/about" element={<About />} />
+          <Route path="/hospitalmanage" element={<HospitalManage />} />
           {user ? (
             <Route path="/*" element={<Navigate to="/patientappointments" />} />
           ) : (

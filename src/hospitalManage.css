@@ -1,0 +1,62 @@
+.hospital-manage-container {
+    margin: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #C8ECF2; /* Light background for contrast */
+}
+
+.hospital-manage-form {
+    margin-bottom: 10px;
+}
+
+.hospital-manage-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.hospital-manage-form input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.hospital-manage-button {
+  background-color: #779ECB; /* Updated button color */
+  color: white;
+  font-weight: 700;
+  padding: 14px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: large;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.hospital-manage-button:hover {
+    background-color: #2F387B;
+}
+
+.hospital-manage-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.hospital-manage-table th, .hospital-manage-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: azure;
+}
+
+.hospital-manage-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #779ECB;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}

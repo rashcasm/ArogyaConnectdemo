@@ -16,10 +16,7 @@ import iglogo from './instalogo.png'; // Replace with your actual image path
 
 
 function host() {
-  
-
-  
-  
+    
   return (
     <div className="App">
       
@@ -123,7 +120,7 @@ function host() {
           </div>
           <div className="footer-section social-media">
             <h4>Follow us on</h4>
-            {/* Icons or links to social media */}
+            {/* Icons or links to social media */} 
             <a href="www.youtube.com/arogyaconnect"><img src={ytlogo} alt="Youtube" /></a>
             <a href="www.instagram.com"><img src={iglogo} alt="Instagram" /></a>
           </div>
